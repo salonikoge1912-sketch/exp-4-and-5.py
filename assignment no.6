@@ -1,0 +1,69 @@
+# Create a list
+numbers = [10, 20, 30, 40, 50]
+
+# Check membership
+print(20 in numbers)      # True
+print(60 in numbers)      # False
+
+print(30 not in numbers)  # False
+print(70 not in numbers)  # True 
+
+
+# Given list
+fruits = ["apple", "banana", "cherry", "mango", "orange"]
+
+# Indexing
+print(fruits[1])   # banana
+
+# Negative indexing
+print(fruits[-1])  # orange
+
+# Slicing
+print(fruits[1:4])   # ['banana', 'cherry', 'mango']
+print(fruits[:3])    # ['apple', 'banana', 'cherry']
+print(fruits[2:])    # ['cherry', 'mango', 'orange']
+
+
+
+# Create list
+items = [1, 2, 3, 4]
+
+# Update
+items[1] = 20
+print(items)
+
+# Append
+items.append(5)
+print(items)
+
+# Insert
+items.insert(2, 15)
+print(items)
+
+# Delete
+items.remove(3)   # remove specific element
+print(items)
+
+del items[0]      # delete by index
+print(items)
+
+items.pop()       # remove last element
+print(items)
+
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+
+# Concatenation
+print(list1 + list2)
+
+# Repetition
+print(list1 * 2)
+
+# Length
+print(len(list1))
+
+# Maximum
+print(max(list2))
+
+# Minimum
+print(min(list2))
